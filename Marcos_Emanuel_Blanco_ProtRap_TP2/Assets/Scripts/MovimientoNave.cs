@@ -15,17 +15,17 @@ public class MovimientoNave : MonoBehaviour
     private void Mover()
     {
         direccion = Input.GetAxis("Horizontal");
-        Vector3 posicionx = transform.position + new Vector3(direccion, 0f /*movVert.y*/, 0f);
+        Vector3 posicionx = transform.position + new Vector3(0.1f * direccion, 0.003f, 0f);
         posicionx.x = Mathf.Clamp(posicionx.x, bordeIzquierdo.position.x, bordeDerecho.position.x);
         transform.position = posicionx;
     }
     void Update()
     {
-        
+        Mover();
     }
 
     private void FixedUpdate()
     {
-        Mover();
+        
     }
 }

@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - BordeInferior
   - Enemigo
   - Proyectil
-  - BordeInferior
   layers:
   - Default
   - TransparentFX
