@@ -1217,7 +1217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   proyectilNave: {fileID: 2056399290906925283, guid: 596de5f0ae91d0e4c9b960b672d8d941, type: 3}
-  tamanoPoolProyectilesNave: 20
+  tamanoPoolProyectilesNave: 200
 --- !u!1001 &1856013629
 PrefabInstance:
   m_ObjectHideFlags: 0

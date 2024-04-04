@@ -11,7 +11,7 @@ public class MovimientoProyectilNave : MonoBehaviour
     }
     void MovimientoProyNave()
     {
-        Vector3 posicionx = transform.position + new Vector3(0f, 1f /*movVert.y*/, 0f);
+        Vector3 posicionx = transform.position + new Vector3(0f, 1f, 0f);
         transform.position = posicionx;
     }
     // Update is called once per frame
